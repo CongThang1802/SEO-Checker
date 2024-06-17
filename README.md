@@ -11,4 +11,4 @@ Live version: https://seo-content-checker-mu.vercel.app/
 2. Enter Page Title;
 3. Enter Meta Description;
 4. Enter SEO Content;
-5. Navigate to SEO Optimization tips tab and make sure you score as high as possible:
+5. Navigate to SEO Optimization tips tab and make sure you score as high as possible: 
