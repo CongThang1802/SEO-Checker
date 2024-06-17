@@ -1,0 +1,66 @@
+body,
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  padding: 10px;
+}
+
+.App-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  max-width: 70%;
+  margin: auto;
+}
+
+.Textarea,
+.Sidebar {
+  flex: 1;
+  padding: 10px;
+  width: 100%;
+}
+
+.Textarea {
+  word-break: break-all;
+  overflow-wrap: break-word;
+  overflow-y: auto;
+  background-color: "#fff";
+  padding: "10px";
+}
+
+.h3,
+.h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.h3 {
+  font-size: 24px;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+  .App-content {
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .Textarea,
+  .Sidebar {
+    width: 100%;
+  }
+}
