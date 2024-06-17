@@ -18,7 +18,7 @@ const TextArea: React.FC<TextAreaProps> = ({ value, setValue }) => {
   return (
     <div className="Textarea">
       <Editor
-        apiKey={process.env.REACT_APP_TINY_API}
+        apiKey='jkjagm9pvlhf9rc2dwdwx7p07616d69r8isjubki2zayr16r'
         value={value}
         init={{
           menubar: true,
